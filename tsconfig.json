@@ -23,11 +23,14 @@
     "lib": [
       "esnext",
       "dom",
+      "es6",
       "dom.iterable",
-      "scripthost"
+      "scripthost",
     ]
   },
   "include": [
+    "src/types/**/*.d.ts",
+    "src/**/*.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",

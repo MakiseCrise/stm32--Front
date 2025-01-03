@@ -8,11 +8,16 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "core-js": "^3.8.3",
+    "element-plus": "^2.9.1",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-router": "^4.0.3",
+    "web-serial-api": "^1.1.4"
   },
   "devDependencies": {
+    "@types/web": "^0.0.188",
+    "@types/web-bluetooth": "^0.0.20",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
